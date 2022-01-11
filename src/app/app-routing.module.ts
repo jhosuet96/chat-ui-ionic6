@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'conversation-page',
     loadChildren: () => import('./conversation-page/conversation-page.module').then( m => m.ConversationPagePageModule)
   },
+  {
+    path: 'page-status',
+    loadChildren: () => import('./page-status/page-status.module').then( m => m.PageStatusPageModule)
+  },
 ];
 
 @NgModule({
