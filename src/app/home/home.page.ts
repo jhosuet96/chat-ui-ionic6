@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+activeTab: string = "chats"
   constructor() {}
+
+  segmentChange(e){
+    this.activeTab = e.target.value;
+  }
 
 }
