@@ -1,0 +1,7 @@
+{
+  "name": "chat-ui-ionic6",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
