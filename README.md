@@ -1,4 +1,10 @@
 # chat-ui-ionic6
 
 Abrir una terminal
-ejecutar ionic serve
+
+ejecutar:
+npm uninstall -g ionic
+npm install -g @ionic/cli
+
+ionic start
+ionic serve
